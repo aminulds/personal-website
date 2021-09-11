@@ -1,0 +1,135 @@
+
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 400;
+    /* line-height: 60px; */
+}
+p{
+    color: #707070;
+
+}
+.profile-summery{
+    padding-bottom: 15px;
+}
+.name-marker{
+    color: #ec4c7a;
+    font-weight: bold;
+}
+
+.half-col{
+    width: 40%;
+    float: left;
+}
+.half-col:first-child{
+    padding-left: 10%;
+}
+
+.half-col img{
+    width: 90%;
+}
+.profile-pic{
+    margin-top: -50px;
+}
+
+.header-section{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+section{
+    height: 600px;
+    padding-top: 150px;
+}
+.link-button{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #ec4c7a;
+    color: white;
+    padding: 5px 25px;
+    margin-top: 15px;
+}
+
+.biography-section{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.biography{
+    padding-left: 20px;
+}
+
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full-col{
+    width: 85%;
+    padding-left: 10%;
+    
+}
+.full-col img{
+    width: 30%;
+}
+.full-col :not(:first-child){
+    padding-right: 25px;
+    
+}
+
+.full-col h1{
+    text-align: center;
+    font-weight: 800;
+}
+.client{
+    text-align: center;
+    line-height: 15px;
+}
+.client h5{
+    padding-top: 25px;
+}
+.review{
+    text-align: center;
+}
+.review p{
+    color: black;
+    font-weight: 550;
+    padding-bottom: 25px;
+}
+.contact{
+    border-radius: 5px;
+    background-color: #ec4c7a;
+    max-width: 300px;
+    height: 100px;
+    position: relative;
+    left: 400px;
+}
+.contact p, a{
+    color: white;
+}
+.contact a{
+    display: block;
+    text-decoration: none; 
+    padding-right: 0px;
+    text-align: center;
+}
+.contact p{
+    padding-top: 15px;
+    text-align: center;
+}
+.testimonial{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-section p{
+    text-align: center;
+}
